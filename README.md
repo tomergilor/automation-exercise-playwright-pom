@@ -1,9 +1,5 @@
 # Automation Exercise Playwright POM Simple
 
-This is a simplified copy of `automation_exercise_playwright_pom`.
-
-The goal is to keep the same homework flow, but make the code easier to read and explain.
-
 ## What The Test Does
 
 The main test is in:
@@ -67,17 +63,6 @@ pages/cart_page.py
 
 Reads the cart rows, sums the item totals, and checks the cart budget.
 
-## Why This Version Is Simpler
-
-The original project splits the search, add-to-cart, and cart-total logic into smaller helper methods.
-
-This version keeps more of the logic inside the main functions, so the flow is easier to follow from top to bottom:
-
-```python
-search_page.search_items_by_name_under_price(...)
-item_page.add_items_to_cart(...)
-cart_page.assert_cart_total_not_exceeds(...)
-```
 
 ## Run
 

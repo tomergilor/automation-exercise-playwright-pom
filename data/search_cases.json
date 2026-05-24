@@ -1,0 +1,9 @@
+[
+  {
+    "case_name": "search tops under budget",
+    "query": "top",
+    "max_price": 1200,
+    "limit": 5,
+    "currency": "INR"
+  }
+]

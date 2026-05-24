@@ -1,5 +1,13 @@
 # Automation Exercise Playwright POM Simple
 
+This project implements an end-to-end shopping cart flow on Automation Exercise:
+
+https://automationexercise.com
+
+##### Because i had issues with working on eBay site (They blocked me because of the automation tests i ran). ######
+
+Automation Exercise is a demo e-commerce website built for automation practice, so it is a stable fit for this test exercise.
+
 ## What The Test Does
 
 The main test is in:
